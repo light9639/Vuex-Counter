@@ -29,15 +29,15 @@ const store = createStore({
             state.value += data;
         },
         setMore(state, data) {
-            state.value = data;
+            state.more = data;
         }
     },
     actions: {
         getData(context) {
             setTimeout(() => {
                 axios.get('https://raw.githubusercontent.com/light9639/Shoe-Store/main/data/Shoes.json').then((a) => {
-                    console.log(a.data.Men);
-                    context.commit('setMore', a.data.Men)
+                    console.log(a.data.ShopAll);
+                    context.commit('setMore', a.data.ShopAll)
                 })
             }, 500)
         }

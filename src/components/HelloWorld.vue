@@ -7,14 +7,15 @@
         <button type="button" @click="increment()">count +1</button>
         <button type="button" @click="decrement()">count -1</button>
         <button type="button" @click="resetValue()">Reset</button>
-        <!-- <button type="button" @click="setMore()">Reset</button> -->
       </div>
       <div>
         <input class="InputStyle" type="text" v-model="InputData">
         <button type="button" @click="AnyIncrement(parseInt(InputData))">count + {{ InputData }}</button>
       </div>
-      <p>{{ more[0] }}</p>
-      <button type="button" @click="getData()">getData</button>
+      <div>
+        <p v-for="(Array, idx) in more" :key="idx">{{ more[idx].name }}</p>
+        <button type="button" @click="getData()">getData</button>
+      </div>
       <p>
         Edit
         <code>components/HelloWorld.vue</code> to test HMR
