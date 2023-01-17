@@ -24,7 +24,7 @@ npm create vite@latest
 yarn create vite
 ```
 - 터미널에서 실행 후 프로젝트 이름 선택 후 Vue 선택, javascirpt 선택하면 생성 완료.
-## 🚝 Vuex 설치
+## 🛸 Vuex 설치
 - Vuex 설치 명령어
 ```bash
 npm install vuex
