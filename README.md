@@ -221,3 +221,5 @@ export default {
 }
 </style>
 ```
+## 📎 출처
+- <a href="https://vuex.vuejs.org/">Vuex 공식 홈페이지</a> 문서를 토대로 구현했습니다.
