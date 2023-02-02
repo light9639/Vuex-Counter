@@ -42,7 +42,7 @@ yarn add axios
 ## ✒️ main.js, store.js, App.vue, HelloWorld.vue 수정 및작성
 ### :zap: main.js
 - main.js에 store 파일 import하고, use(store)로 연결하기
-```bash
+```js
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
@@ -52,7 +52,7 @@ createApp(App).use(store).mount('#app')
 ```
 ### :zap: store.js
 - axios를 import 하고 `yarn add vuex-persistedstate`로 vuex-persist 설치 후 plugin을 작성하면 로컬스토리지에 vuex 자료가 자동으로 저장됨.
-```bash
+```js
 import { createStore } from 'vuex'
 import axios from 'axios'
 import createPersistedState from 'vuex-persistedstate';
@@ -102,7 +102,7 @@ const store = createStore({
 export default store
 ```
 ### :zap: App.vue
-```bash
+```js
 <template>
   <div>
     <div>
@@ -141,7 +141,7 @@ export default {
 ### :zap: HelloWorld.vue
 - mapState, mapMutations, mapActions를 이용하여 vuex 실행 코드를 단축하였음.
 - watch 함수를 사용하여 InputData가 숫자가 아닐 경우 경고창 실행 후 값을 0으로 만들도록 작성하였음.
-```bash
+```js
 <template>
   <div>
     <h1>{{ msg }}</h1>
