@@ -1,4 +1,4 @@
-# :zap: Vuex를 이용하여 만든 counter 예제입니다.
+# ⚗️ Vuex를 이용하여 만든 counter 예제입니다.
 :octocat: https://light9639.github.io/Vuex-Counter/
 
 ![light9639 github io_Vuex-Counter_](https://user-images.githubusercontent.com/95972251/212824098-742b477f-c347-4475-ad3a-c7d42462c029.png)
