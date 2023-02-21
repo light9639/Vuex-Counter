@@ -102,6 +102,7 @@ const store = createStore({
 export default store
 ```
 ### :zap: App.vue
+- `HelloWorld` 컴포넌트를 `import`한 뒤 `props`로 텍스트를 전달한다.
 ```js
 <template>
   <div>
@@ -139,8 +140,8 @@ export default {
 </style>
 ```
 ### :zap: HelloWorld.vue
-- mapState, mapMutations, mapActions를 이용하여 vuex 실행 코드를 단축하였음.
-- watch 함수를 사용하여 InputData가 숫자가 아닐 경우 경고창 실행 후 값을 0으로 만들도록 작성하였음.
+- `mapState`, `mapMutations`, `mapActions`를 이용하여 `vuex` 실행 코드를 단축하였음.
+- `watch` 함수를 사용하여 `InputData`가 숫자가 아닐 경우 경고창 실행 후 값을 0으로 만들도록 작성하였음.
 ```js
 <template>
   <div>
